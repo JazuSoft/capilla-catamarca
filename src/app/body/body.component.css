@@ -12,3 +12,10 @@ margin-top: 2rem;
 .subtitle{
     text-align: center;
 }
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
+}
+.accordion-button:focus {
+    border-color: #8a2530 !important;
+    box-shadow: none;
+}
