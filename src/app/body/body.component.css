@@ -19,3 +19,15 @@ margin-top: 2rem;
     border-color: #8a2530 !important;
     box-shadow: none;
 }
+#presupuesto-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    #presupuesto-mobile{
+        display: block;
+    }
+    #presupuesto{
+        display: none
+    }
+}
