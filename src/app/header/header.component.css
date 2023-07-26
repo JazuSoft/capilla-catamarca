@@ -1,0 +1,26 @@
+.header-top{
+  width: 100%;
+  background: #8a2530;
+  height: 5rem;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.logo-fasta{
+   width: 12rem;
+  padding: 0.5rem;
+  padding-left: 2rem; 
+}
+.navbar ul{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  color: white;
+  list-style-type: none;
+}
+li{
+  margin: 1rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
