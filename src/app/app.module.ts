@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { AppRoutingModule } from './app-routing.module';
 import {RouterOutlet} from "@angular/router";
+import { DatePipe } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import {RouterOutlet} from "@angular/router";
         AppRoutingModule,
         RouterOutlet
     ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
