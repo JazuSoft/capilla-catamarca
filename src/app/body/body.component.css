@@ -22,6 +22,9 @@ margin-top: 2rem;
 #presupuesto-mobile{
     display: none;
 }
+#carrusel-mobile{
+    display: none;
+}
 
 @media screen and (max-width: 767px) {
     #presupuesto-mobile{
@@ -29,5 +32,11 @@ margin-top: 2rem;
     }
     #presupuesto{
         display: none
+    }
+    #carrusel{
+        display: none;
+    }
+    #carrusel-mobile{
+        display: block;
     }
 }
